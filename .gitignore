@@ -1,0 +1,50 @@
+# Environment
+.venv/
+.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Audio, video and model weights never enter version control.
+data/
+out/
+models/
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.mkv
+*.mp4
+*.m4a
+*.ac3
+*.dts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npz
+
+# Experiment output
+experiments/**/runs/
+wandb/
+mlruns/
+
+# --- Local-only: never published ---------------------------------------------
+# Research materials stay off the remote until the work is published.
+docs/02-research-angles.md
+*.pdf
+
+# macOS
+.DS_Store
