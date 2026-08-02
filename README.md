@@ -3,6 +3,7 @@
 **Pull the voices out of the film.** Separating dialogue from music and effects in cinematic audio, for accurate subtitles, dubbing prep and dialogue-only analysis. The interesting part is how much of it is not a separation problem at all.
 
 ![Status](https://img.shields.io/badge/status-v0%20exploration-E8A33D)
+![Licence](https://img.shields.io/badge/licence-PolyForm%20Noncommercial-blue)
 ![Domain](https://img.shields.io/badge/domain-cinematic%20audio-8A63D2)
 ![Task](https://img.shields.io/badge/task-dialogue%20%2F%20music%20%2F%20effects-3776AB)
 
@@ -103,7 +104,7 @@ The obvious angle — *separation artefacts hurt ASR, so optimise for word error
 | [00-problem.md](docs/00-problem.md) | Why subtraction fails, and the structural shortcuts that work |
 | [01-data.md](docs/01-data.md) | Legal sources for multichannel audio, volume required, extraction |
 
-Research materials — novelty analysis and experiment designs — are kept local and are not published here.
+Research materials — novelty analysis and experiment designs — live in a separate private repository and are not published here.
 
 ## Related
 
@@ -112,4 +113,6 @@ Research materials — novelty analysis and experiment designs — are kept loca
 
 ## Licence
 
-Undecided. PolyForm Noncommercial, matching the sibling projects, is the likely default.
+**Source-available, not open source.** [PolyForm Noncommercial 1.0.0](LICENSE.md) — free for personal use, research, education, nonprofits and government, regardless of how those organisations are funded. Commercial use requires a separate licence.
+
+The licence is provisional through alpha. Whether Diegesis stays noncommercial, moves to a permissive open-source licence, or closes entirely is an open decision, and PolyForm Noncommercial keeps all three available.

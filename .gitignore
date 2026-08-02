@@ -43,7 +43,7 @@ mlruns/
 
 # --- Local-only: never published ---------------------------------------------
 # Research materials stay off the remote until the work is published.
-docs/02-research-angles.md
+docs/research/
 *.pdf
 
 # macOS
